@@ -17,7 +17,7 @@ try:
     input4.send_keys("Russia")
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
-
+# просто текст
 finally:
     # успеваем скопировать код за 30 секунд
     time.sleep(40)
