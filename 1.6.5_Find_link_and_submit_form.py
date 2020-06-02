@@ -6,6 +6,9 @@ import math
 link = "http://suninjuly.github.io/find_link_text"
 link_text = str(math.ceil(math.pow(math.pi, math.e)*10000))
 
+def simple_function():
+    x = 2+3
+
 try:
     browser = webdriver.Chrome()
     browser.get(link)
@@ -30,4 +33,5 @@ finally:
     # закрываем браузер после всех манипуляций
     browser.quit()
 
-# не забываем оставить пустую строку в конце файла
+# какое-то изменение 2
+
